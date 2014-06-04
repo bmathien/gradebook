@@ -1,5 +1,5 @@
 //
-//  studentViewController.h
+//  StudentViewController.h
 //  gradebook
 //
 //  Created by teacher on 6/4/14.
