@@ -21,6 +21,12 @@
 		AE39AB1F193F72D100BBDCF6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE39AB01193F72D100BBDCF6 /* UIKit.framework */; };
 		AE39AB27193F72D100BBDCF6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE39AB25193F72D100BBDCF6 /* InfoPlist.strings */; };
 		AE39AB29193F72D100BBDCF6 /* gradebookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE39AB28193F72D100BBDCF6 /* gradebookTests.m */; };
+		AE39AB34193F738800BBDCF6 /* CourseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE39AB33193F738800BBDCF6 /* CourseViewController.m */; };
+		AE39AB37193F73AB00BBDCF6 /* StudentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE39AB36193F73AB00BBDCF6 /* StudentViewController.m */; };
+		AE39AB3A193F73BB00BBDCF6 /* AssignmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE39AB39193F73BB00BBDCF6 /* AssignmentViewController.m */; };
+		AE39AB3D193F76CD00BBDCF6 /* CourseDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE39AB3C193F76CD00BBDCF6 /* CourseDetailView.m */; };
+		AE39AB40193F76EE00BBDCF6 /* AssignmentDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE39AB3F193F76EE00BBDCF6 /* AssignmentDetailView.m */; };
+		AE39AB43193F770800BBDCF6 /* StudentDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE39AB42193F770800BBDCF6 /* StudentDetailView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,18 @@
 		AE39AB24193F72D100BBDCF6 /* gradebookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gradebookTests-Info.plist"; sourceTree = "<group>"; };
 		AE39AB26193F72D100BBDCF6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AE39AB28193F72D100BBDCF6 /* gradebookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gradebookTests.m; sourceTree = "<group>"; };
+		AE39AB32193F738800BBDCF6 /* CourseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseViewController.h; sourceTree = "<group>"; };
+		AE39AB33193F738800BBDCF6 /* CourseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseViewController.m; sourceTree = "<group>"; };
+		AE39AB35193F73AB00BBDCF6 /* StudentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentViewController.h; sourceTree = "<group>"; };
+		AE39AB36193F73AB00BBDCF6 /* StudentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentViewController.m; sourceTree = "<group>"; };
+		AE39AB38193F73BB00BBDCF6 /* AssignmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssignmentViewController.h; sourceTree = "<group>"; };
+		AE39AB39193F73BB00BBDCF6 /* AssignmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssignmentViewController.m; sourceTree = "<group>"; };
+		AE39AB3B193F76CD00BBDCF6 /* CourseDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseDetailView.h; sourceTree = "<group>"; };
+		AE39AB3C193F76CD00BBDCF6 /* CourseDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseDetailView.m; sourceTree = "<group>"; };
+		AE39AB3E193F76EE00BBDCF6 /* AssignmentDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssignmentDetailView.h; sourceTree = "<group>"; };
+		AE39AB3F193F76EE00BBDCF6 /* AssignmentDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssignmentDetailView.m; sourceTree = "<group>"; };
+		AE39AB41193F770800BBDCF6 /* StudentDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentDetailView.h; sourceTree = "<group>"; };
+		AE39AB42193F770800BBDCF6 /* StudentDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentDetailView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +133,18 @@
 				AE39AB0C193F72D100BBDCF6 /* AppDelegate.h */,
 				AE39AB0D193F72D100BBDCF6 /* AppDelegate.m */,
 				AE39AB0F193F72D100BBDCF6 /* Main.storyboard */,
+				AE39AB3B193F76CD00BBDCF6 /* CourseDetailView.h */,
+				AE39AB3C193F76CD00BBDCF6 /* CourseDetailView.m */,
+				AE39AB3E193F76EE00BBDCF6 /* AssignmentDetailView.h */,
+				AE39AB3F193F76EE00BBDCF6 /* AssignmentDetailView.m */,
+				AE39AB41193F770800BBDCF6 /* StudentDetailView.h */,
+				AE39AB42193F770800BBDCF6 /* StudentDetailView.m */,
+				AE39AB32193F738800BBDCF6 /* CourseViewController.h */,
+				AE39AB33193F738800BBDCF6 /* CourseViewController.m */,
+				AE39AB35193F73AB00BBDCF6 /* StudentViewController.h */,
+				AE39AB36193F73AB00BBDCF6 /* StudentViewController.m */,
+				AE39AB38193F73BB00BBDCF6 /* AssignmentViewController.h */,
+				AE39AB39193F73BB00BBDCF6 /* AssignmentViewController.m */,
 				AE39AB12193F72D100BBDCF6 /* ViewController.h */,
 				AE39AB13193F72D100BBDCF6 /* ViewController.m */,
 				AE39AB15193F72D100BBDCF6 /* Images.xcassets */,
@@ -249,8 +279,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE39AB40193F76EE00BBDCF6 /* AssignmentDetailView.m in Sources */,
+				AE39AB3D193F76CD00BBDCF6 /* CourseDetailView.m in Sources */,
 				AE39AB14193F72D100BBDCF6 /* ViewController.m in Sources */,
+				AE39AB34193F738800BBDCF6 /* CourseViewController.m in Sources */,
+				AE39AB37193F73AB00BBDCF6 /* StudentViewController.m in Sources */,
+				AE39AB3A193F73BB00BBDCF6 /* AssignmentViewController.m in Sources */,
 				AE39AB0E193F72D100BBDCF6 /* AppDelegate.m in Sources */,
+				AE39AB43193F770800BBDCF6 /* StudentDetailView.m in Sources */,
 				AE39AB0A193F72D100BBDCF6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +492,7 @@
 				AE39AB2E193F72D100BBDCF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE39AB2F193F72D100BBDCF6 /* Build configuration list for PBXNativeTarget "gradebookTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +501,7 @@
 				AE39AB31193F72D100BBDCF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,6 +8,13 @@
 
 #import "courseViewController.h"
 
-@implementation courseViewController
+@implementation CourseViewController
+- (IBAction)onStudentButtonPressed:(id)sender {
+    
+}
+- (IBAction)onAssignmentButtonPressed:(id)sender {
+}
+- (IBAction)onAddButtonPressed:(id)sender {
+}
 
 @end

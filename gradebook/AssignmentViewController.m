@@ -9,5 +9,9 @@
 #import "AssignmentViewController.h"
 
 @implementation AssignmentViewController
+- (IBAction)onStudentButtonPressed:(id)sender {
+}
+- (IBAction)onAddButtonPressed:(id)sender {
+}
 
 @end

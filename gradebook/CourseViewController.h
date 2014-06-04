@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface courseViewController : UIViewController
+@interface CourseViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITableView *courseTableView;
 
 @end

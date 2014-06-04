@@ -8,6 +8,11 @@
 
 #import "studentViewController.h"
 
-@implementation studentViewController
+@implementation StudentViewController
+- (IBAction)onStudentButtonPressed:(id)sender
+{ 
+}
+- (IBAction)onAddButtonPressed:(id)sender {
+}
 
 @end
