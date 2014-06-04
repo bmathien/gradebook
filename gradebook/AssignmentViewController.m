@@ -14,4 +14,11 @@
 - (IBAction)onAddButtonPressed:(id)sender {
 }
 
+- (IBAction)unwindFromAssignmentDetailViewController:(UIStoryboardSegue *)sender
+{
+
+    NSLog(@"Assignment Info Logged!!!");
+    
+}
+
 @end

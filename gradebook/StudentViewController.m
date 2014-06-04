@@ -15,4 +15,11 @@
 - (IBAction)onAddButtonPressed:(id)sender {
 }
 
+- (IBAction)unwindFromStudentDetailViewController:(UIStoryboardSegue *)sender
+{
+
+    NSLog(@"Student Info Logged!!!");
+    
+}
+
 @end

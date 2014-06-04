@@ -17,4 +17,11 @@
 - (IBAction)onAddButtonPressed:(id)sender {
 }
 
+- (IBAction)unwindFromCourseDetailViewController:(UIStoryboardSegue *)sender
+{
+
+    NSLog(@"Course Info Logged!!!");
+
+}
+
 @end
