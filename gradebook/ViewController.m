@@ -10,6 +10,10 @@
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *myStartButton;
+@property NSArray *courses;
+@property NSArray *assignments;
+@property NSArray *students;
+@property NSArray *grades;
 
 @end
 
@@ -18,15 +22,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [MetaData loadData];
 }
 - (IBAction)onStartButtonPressed:(id)sender {
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
 
 @end

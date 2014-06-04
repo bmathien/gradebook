@@ -12,5 +12,8 @@
 
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) NSString *section;
+@property (nonatomic, strong) NSArray *assignments;
+@property (nonatomic, strong) NSArray *students;
+@property (nonatomic, strong) NSArray *grades;
 
 @end

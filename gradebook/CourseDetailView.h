@@ -10,4 +10,5 @@
 
 @interface CourseDetailView : UIViewController
 
+
 @end
