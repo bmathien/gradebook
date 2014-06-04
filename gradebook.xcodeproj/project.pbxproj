@@ -27,6 +27,7 @@
 		AE39AB3D193F76CD00BBDCF6 /* CourseDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE39AB3C193F76CD00BBDCF6 /* CourseDetailView.m */; };
 		AE39AB40193F76EE00BBDCF6 /* AssignmentDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE39AB3F193F76EE00BBDCF6 /* AssignmentDetailView.m */; };
 		AE39AB43193F770800BBDCF6 /* StudentDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE39AB42193F770800BBDCF6 /* StudentDetailView.m */; };
+		DC60B319193F8F9200762EF8 /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = DC60B318193F8F9200762EF8 /* Course.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,8 @@
 		AE39AB3F193F76EE00BBDCF6 /* AssignmentDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssignmentDetailView.m; sourceTree = "<group>"; };
 		AE39AB41193F770800BBDCF6 /* StudentDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentDetailView.h; sourceTree = "<group>"; };
 		AE39AB42193F770800BBDCF6 /* StudentDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentDetailView.m; sourceTree = "<group>"; };
+		DC60B317193F8F9200762EF8 /* Course.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
+		DC60B318193F8F9200762EF8 /* Course.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Course.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +152,8 @@
 				AE39AB13193F72D100BBDCF6 /* ViewController.m */,
 				AE39AB15193F72D100BBDCF6 /* Images.xcassets */,
 				AE39AB04193F72D100BBDCF6 /* Supporting Files */,
+				DC60B317193F8F9200762EF8 /* Course.h */,
+				DC60B318193F8F9200762EF8 /* Course.m */,
 			);
 			path = gradebook;
 			sourceTree = "<group>";
@@ -283,6 +288,7 @@
 				AE39AB3D193F76CD00BBDCF6 /* CourseDetailView.m in Sources */,
 				AE39AB14193F72D100BBDCF6 /* ViewController.m in Sources */,
 				AE39AB34193F738800BBDCF6 /* CourseViewController.m in Sources */,
+				DC60B319193F8F9200762EF8 /* Course.m in Sources */,
 				AE39AB37193F73AB00BBDCF6 /* StudentViewController.m in Sources */,
 				AE39AB3A193F73BB00BBDCF6 /* AssignmentViewController.m in Sources */,
 				AE39AB0E193F72D100BBDCF6 /* AppDelegate.m in Sources */,
