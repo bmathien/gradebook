@@ -11,5 +11,6 @@
 @interface Course : NSObject
 
 @property (nonatomic, strong) NSString *name;
+@property (nonatomic, strong) NSString *section;
 
 @end
