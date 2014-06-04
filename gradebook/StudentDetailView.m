@@ -7,7 +7,13 @@
 //
 
 #import "StudentDetailView.h"
+@interface StudentDetailView ()
+@property (weak, nonatomic) IBOutlet UITextField *firstNameTextField;
+@property (weak, nonatomic) IBOutlet UITextField *lastNameTextField;
 
+@end
 @implementation StudentDetailView
+- (IBAction)doneButtonPressed:(id)sender {
+}
 
 @end
