@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CourseViewController : UIViewController
+@interface CourseViewController : UIViewController 
+
 @property (weak, nonatomic) IBOutlet UITableView *courseTableView;
+@property NSMutableArray *coursesArray;
+
 
 @end

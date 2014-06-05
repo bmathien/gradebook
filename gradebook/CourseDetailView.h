@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Course.h"
 
 @interface CourseDetailView : UIViewController
+
+@property UITextField *inputTextField;
+
+@property (nonatomic, strong) Course *course;
 
 @end

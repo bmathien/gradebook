@@ -7,19 +7,33 @@
 //
 
 #import "CourseDetailView.h"
+#import "CourseViewController.h"
 @interface CourseDetailView ()
 @property (weak, nonatomic) IBOutlet UITextField *courseNameTextField;
 @property (weak, nonatomic) IBOutlet UITextField *sectionNameTextField;
 @end
 
+@interface CourseDetailView ()
+
+@property (nonatomic, weak) IBOutlet UITextField *courseName;
+@property (nonatomic, weak) IBOutlet UITextField *sectionName;
+
+@end
 @implementation CourseDetailView
 
--(void) viewDidLoad
+- (void)viewDidLoad
 {
     [super viewDidLoad];
-}
-- (IBAction)doneButtonTapped:(id)sender
-{
-}
 
+
+
+}
+-(IBAction)doneButtonTapped:(id)sender
+{
+
+    self.course = [[Course alloc] initWithName:self.courseName.text
+                                       section:self.sectionName.text];
+
+
+}
 @end
