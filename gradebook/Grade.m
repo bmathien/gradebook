@@ -10,6 +10,14 @@
 #import "Student.h"
 #import "Assignment.h"
 
+/* this is an individual Grade object that contains the following properties:
+ .studentUID    the unique id of a given student
+ .assignmentUID the unique id of a given assignment
+ .score         the numeric score of this grade
+ NOTE: individual Grade objects are contained in Course object property that is a mutable array
+ */
+
+
 @implementation Grade
 
 -(id) initWithStudentUID:(NSString *)studentUID assignmentUID:(NSString *)assignmentUID score:(NSNumber *)score

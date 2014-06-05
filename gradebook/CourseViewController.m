@@ -18,6 +18,13 @@
 
 @implementation CourseViewController
 
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    // [self.tableView reloadData];
+}
+
+
 - (IBAction)onStudentButtonPressed:(id)sender {
     
 }
