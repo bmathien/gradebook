@@ -8,7 +8,12 @@
 
 #import "Assignment.h"
 
-// this is an individual Assignment object, represented as a dictionary
+/* this is an individual Assignment object that contains the following properties:
+ .uid           a computer generated unique id for the object
+ .name          the name of the assignment
+ .points        the total number of points the assignment is worth
+ NOTE: individual Assignment objects are contained in Course object property that is a mutable array
+ */
 
 @implementation Assignment
 

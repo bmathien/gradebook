@@ -12,4 +12,7 @@
 @interface CourseList : NSObject
 @property NSMutableArray *courses;
 
+-(void)saveData;
+-(void)loadData;
+
 @end

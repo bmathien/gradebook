@@ -11,11 +11,12 @@
 #import "Student.h"
 #import "Grade.h"
 
-// this is an individual Course object, represented as a dictionary
-
-@interface Course()
-
-@end
+/* this is an individual Course object that contains the following properties:
+    .name           the name of the course
+    .section        the section / period name
+    .students       a mutable array of Student objects (specific to this course)
+    .assignments    a mutable array of Assignment objects (specific to this course)
+ */
 
 @implementation Course
 

@@ -8,7 +8,12 @@
 
 #import "Student.h"
 
-// this is an individual Student object, represented as a dictionary
+/* this is an individual Student object that contains the following properties:
+ .uid            a computer generated unique id for the object
+ .firstName      the first name of the student
+ .lastName       the last name of the student
+        NOTE: individual Student objects are contained in Course object property that is a mutable array
+ */
 
 @implementation Student
 

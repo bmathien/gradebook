@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CourseList.h"
 
 @interface ViewController : UIViewController
+@property CourseList *courseList;
 
 @end

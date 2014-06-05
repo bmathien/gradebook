@@ -17,12 +17,14 @@
 
 @implementation CourseViewController
 
--(void)viewDidLoad
+- (void)viewDidLoad
 {
-    self.coursesArray =[[NSMutableArray alloc]init];
-    Course *courseOne = [[Course alloc] initWithName:@"Mobile" section:@"5"];
-    [self.coursesArray addObject:courseOne];
+    [super viewDidLoad];
+    // [self.tableView reloadData];
 }
+
+
+
 - (IBAction)onStudentButtonPressed:(id)sender {
     
 }
@@ -41,8 +43,7 @@
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MyCourseCellID"];
-   Course *course   =   [self.coursesArray objectAtIndex:indexPath.row];
-
+    Course *course   =   [self.coursesArray objectAtIndex:indexPath.row];
     cell.textLabel.text = course.name;
     cell.detailTextLabel.text = course.section;
 
