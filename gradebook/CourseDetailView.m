@@ -8,6 +8,10 @@
 
 #import "CourseDetailView.h"
 #import "CourseViewController.h"
+@interface CourseDetailView ()
+@property (weak, nonatomic) IBOutlet UITextField *courseNameTextField;
+@property (weak, nonatomic) IBOutlet UITextField *sectionNameTextField;
+@end
 
 @interface CourseDetailView ()
 

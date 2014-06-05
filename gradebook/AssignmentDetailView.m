@@ -7,7 +7,16 @@
 //
 
 #import "AssignmentDetailView.h"
+@interface AssignmentDetailView ()
+@property (weak, nonatomic) IBOutlet UITextField *assignmentNameTextField;
+@property (weak, nonatomic) IBOutlet UITextField *totalPointsTextField;
+
+@end
+
+
 
 @implementation AssignmentDetailView
+- (IBAction)doneButtonPressed:(id)sender {
+}
 
 @end

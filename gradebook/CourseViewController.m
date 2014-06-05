@@ -1,12 +1,12 @@
 //
-//  courseViewController.m
+//  CourseViewController.m
 //  gradebook
 //
 //  Created by teacher on 6/4/14.
 //  Copyright (c) 2014 Mathien. All rights reserved.
 //
 
-#import "courseViewController.h"
+#import "CourseViewController.h"
 #import "Course.h"
 #import "CourseDetailView.h"
 
@@ -53,5 +53,11 @@
     return cell;
 }
 
+- (IBAction)unwindFromCourseDetailViewController:(UIStoryboardSegue *)sender
+{
+
+    NSLog(@"Course Info Logged!!!");
+
+}
 
 @end
