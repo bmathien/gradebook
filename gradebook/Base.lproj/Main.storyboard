@@ -29,6 +29,10 @@
                                     <segue destination="GqY-DH-2XM" kind="push" id="dhM-kI-c5l"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="speedgraderlogo" translatesAutoresizingMaskIntoConstraints="NO" id="h9A-Tl-BR2">
+                                <rect key="frame" x="9" y="66" width="303" height="335"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -41,7 +45,7 @@
             </objects>
             <point key="canvasLocation" x="664" y="110"/>
         </scene>
-        <!--Course View Controller - COURSES-->
+        <!--Course View Controller - Courses-->
         <scene sceneID="AEY-5L-5Da">
             <objects>
                 <viewController id="GqY-DH-2XM" customClass="CourseViewController" sceneMemberID="viewController">
@@ -99,11 +103,11 @@
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="COURSES" id="4Xa-Lh-Ssf">
+                    <navigationItem key="navigationItem" title="Courses" id="4Xa-Lh-Ssf">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="o6m-0V-rrR">
                             <connections>
                                 <action selector="onAddButtonPressed:" destination="GqY-DH-2XM" id="QXl-Wv-PmM"/>
-                                <segue destination="gP2-VT-aoF" kind="modal" id="xZD-Ti-lnK"/>
+                                <segue destination="gP2-VT-aoF" kind="modal" identifier="courseDetailSegue" id="xZD-Ti-lnK"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -185,7 +189,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gBq-Sp-QAO" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="QbP-Zt-PgI" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1527" y="-989"/>
+            <point key="canvasLocation" x="2095" y="-521"/>
         </scene>
         <!--Student View Controller - Students-->
         <scene sceneID="hxQ-hY-IVd">
@@ -200,7 +204,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="OTc-2J-icN">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="500"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -271,7 +275,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="76i-Yf-tAv">
-                                <rect key="frame" x="53" y="251" width="215" height="30"/>
+                                <rect key="frame" x="53" y="233" width="215" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -284,7 +288,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SECTION #" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AKh-Jq-hoG">
-                                <rect key="frame" x="33" y="297" width="254" height="28"/>
+                                <rect key="frame" x="33" y="279" width="254" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
                                 <color key="textColor" name="highlightColor" catalog="System" colorSpace="catalog"/>
@@ -301,7 +305,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="11G-md-70o" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="HWq-ea-Bz9" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1095" y="807"/>
+            <point key="canvasLocation" x="1089" y="955"/>
         </scene>
         <!--Assignment Detail View-->
         <scene sceneID="PPh-Md-5ve">
@@ -373,7 +377,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m6A-2f-iut" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="7JF-TC-jtR" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1547" y="1151"/>
+            <point key="canvasLocation" x="2095" y="639"/>
         </scene>
         <!--Assignment View Controller - Assignments-->
         <scene sceneID="SfR-6C-inn">
@@ -387,8 +391,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Z3h-Ox-Mqr" customClass="AssignmentView">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="499"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Z3h-Ox-Mqr">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -439,6 +443,9 @@
             <point key="canvasLocation" x="230" y="110"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="speedgraderlogo" width="589" height="488"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
