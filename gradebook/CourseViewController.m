@@ -37,7 +37,7 @@
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MyCourseCellID"];
     Course *course   =   [self.coursesArray objectAtIndex:indexPath.row];
-    cell.textLabel.text = course.name;
+   // cell.textLabel.text = courseEnteredName;
     cell.detailTextLabel.text = course.section;
     return cell;
 }

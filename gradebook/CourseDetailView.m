@@ -28,10 +28,11 @@
 }
 -(IBAction)doneButtonTapped:(id)sender
 {
-    self.courseNameTextField = 
+    self.courseEnteredName = self.courseNameTextField.text;
+    self.courseEnteredSection = self.sectionNameTextField.text;
 
-    self.course = [[Course alloc] initWithName:self.courseNameTextField.text
-                                       section:self.sectionNameTextField.text];
+    self.course = [[Course alloc] initWithName:self.courseEnteredName
+                                       section:self.courseEnteredSection];
 
 
 
