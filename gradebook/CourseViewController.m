@@ -26,17 +26,6 @@
 - (IBAction)onAddButtonPressed:(id)sender {
 
 
-    self.coursesArray = [[NSMutableArray alloc] init];
-    Course *addedCourse = [[Course alloc ]init];
-
-
-    NSString *courseName = self.inputTextField.text;
-    addedCourse.name = courseName;
-    [self.coursesArray addObject:addedCourse];
-    [self.courseTableView reloadData ];
-    [self.inputTextField resignFirstResponder];
-    self.inputTextField.text = @"";
-   // self.switchNameAndDescription = NO;
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -48,7 +37,7 @@
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MyCourseCellID"];
     Course *course   =   [self.coursesArray objectAtIndex:indexPath.row];
-    cell.textLabel.text = course.name;
+   // cell.textLabel.text = courseEnteredName;
     cell.detailTextLabel.text = course.section;
     return cell;
 }

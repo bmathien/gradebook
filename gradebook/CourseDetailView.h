@@ -14,5 +14,7 @@
 @property UITextField *inputTextField;
 
 @property (nonatomic, strong) Course *course;
+@property NSString *courseEnteredName;
+@property NSString *courseEnteredSection;
 
 @end
