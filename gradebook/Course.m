@@ -11,7 +11,7 @@
 #import "Student.h"
 #import "Grade.h"
 
-// this is an individual Course object, represented as a dictionary
+// this is an individual Course object that contains the following properties
 
 @interface Course()
 
