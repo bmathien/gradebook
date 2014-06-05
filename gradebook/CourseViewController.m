@@ -7,14 +7,51 @@
 //
 
 #import "courseViewController.h"
+#import "Course.h"
+#import "CourseDetailView.h"
+
+@interface UIViewController ()<UITableViewDelegate, UITableViewDataSource>
+
+@property IBOutlet UITextField *inputTextField;
+
+@end
 
 @implementation CourseViewController
+
 - (IBAction)onStudentButtonPressed:(id)sender {
     
 }
 - (IBAction)onAssignmentButtonPressed:(id)sender {
 }
 - (IBAction)onAddButtonPressed:(id)sender {
+
+
+    self.coursesArray = [[NSMutableArray alloc] init];
+    Course *addedCourse = [[Course alloc ]init];
+
+
+    NSString *courseName = self.inputTextField.text;
+    addedCourse.name = courseName;
+    [self.coursesArray addObject:addedCourse];
+    [self.courseTableView reloadData ];
+    [self.inputTextField resignFirstResponder];
+    self.inputTextField.text = @"";
+   // self.switchNameAndDescription = NO;
 }
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return self.coursesArray.count;
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MyCourseCellID"];
+    Course *course   =   [self.coursesArray objectAtIndex:indexPath.row];
+    cell.textLabel.text = course.name;
+    cell.detailTextLabel.text = course.section;
+    return cell;
+}
+
 
 @end

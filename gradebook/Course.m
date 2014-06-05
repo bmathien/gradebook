@@ -9,5 +9,12 @@
 #import "Course.h"
 
 @implementation Course
+-(Course *)initWithName: (NSString *)name section: (NSString *)section
+{
+    self.name = name;
+    self.section = section;
+    return self;
+}
+
 
 @end
