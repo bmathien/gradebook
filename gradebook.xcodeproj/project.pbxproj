@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE0C8256193FB73000D53C6C /* Grade.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0C8255193FB73000D53C6C /* Grade.m */; };
 		AE39AAFE193F72D100BBDCF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE39AAFD193F72D100BBDCF6 /* Foundation.framework */; };
 		AE39AB00193F72D100BBDCF6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE39AAFF193F72D100BBDCF6 /* CoreGraphics.framework */; };
 		AE39AB02193F72D100BBDCF6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE39AB01193F72D100BBDCF6 /* UIKit.framework */; };
@@ -27,6 +28,9 @@
 		AE39AB3D193F76CD00BBDCF6 /* CourseDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE39AB3C193F76CD00BBDCF6 /* CourseDetailView.m */; };
 		AE39AB40193F76EE00BBDCF6 /* AssignmentDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE39AB3F193F76EE00BBDCF6 /* AssignmentDetailView.m */; };
 		AE39AB43193F770800BBDCF6 /* StudentDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE39AB42193F770800BBDCF6 /* StudentDetailView.m */; };
+		AE57D0EB193F976200A5D2C1 /* Assignment.m in Sources */ = {isa = PBXBuildFile; fileRef = AE57D0EA193F976200A5D2C1 /* Assignment.m */; };
+		AE57D0EE193F97C100A5D2C1 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = AE57D0ED193F97C100A5D2C1 /* Student.m */; };
+		AEC383551940CFAF000A490D /* CourseList.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC383541940CFAF000A490D /* CourseList.m */; };
 		DC60B319193F8F9200762EF8 /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = DC60B318193F8F9200762EF8 /* Course.m */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE0C8254193FB73000D53C6C /* Grade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grade.h; sourceTree = "<group>"; };
+		AE0C8255193FB73000D53C6C /* Grade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grade.m; sourceTree = "<group>"; };
 		AE39AAFA193F72D100BBDCF6 /* gradebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gradebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE39AAFD193F72D100BBDCF6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AE39AAFF193F72D100BBDCF6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -72,6 +78,12 @@
 		AE39AB3F193F76EE00BBDCF6 /* AssignmentDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssignmentDetailView.m; sourceTree = "<group>"; };
 		AE39AB41193F770800BBDCF6 /* StudentDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentDetailView.h; sourceTree = "<group>"; };
 		AE39AB42193F770800BBDCF6 /* StudentDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentDetailView.m; sourceTree = "<group>"; };
+		AE57D0E9193F976200A5D2C1 /* Assignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assignment.h; sourceTree = "<group>"; };
+		AE57D0EA193F976200A5D2C1 /* Assignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Assignment.m; sourceTree = "<group>"; };
+		AE57D0EC193F97C100A5D2C1 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Student.h; path = ../Student.h; sourceTree = "<group>"; };
+		AE57D0ED193F97C100A5D2C1 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Student.m; path = ../Student.m; sourceTree = "<group>"; };
+		AEC383531940CFAF000A490D /* CourseList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CourseList.h; path = ../CourseList.h; sourceTree = "<group>"; };
+		AEC383541940CFAF000A490D /* CourseList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CourseList.m; path = ../CourseList.m; sourceTree = "<group>"; };
 		DC60B317193F8F9200762EF8 /* Course.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
 		DC60B318193F8F9200762EF8 /* Course.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Course.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -152,8 +164,16 @@
 				AE39AB13193F72D100BBDCF6 /* ViewController.m */,
 				AE39AB15193F72D100BBDCF6 /* Images.xcassets */,
 				AE39AB04193F72D100BBDCF6 /* Supporting Files */,
+				AEC383531940CFAF000A490D /* CourseList.h */,
+				AEC383541940CFAF000A490D /* CourseList.m */,
 				DC60B317193F8F9200762EF8 /* Course.h */,
 				DC60B318193F8F9200762EF8 /* Course.m */,
+				AE57D0EC193F97C100A5D2C1 /* Student.h */,
+				AE57D0ED193F97C100A5D2C1 /* Student.m */,
+				AE57D0E9193F976200A5D2C1 /* Assignment.h */,
+				AE57D0EA193F976200A5D2C1 /* Assignment.m */,
+				AE0C8254193FB73000D53C6C /* Grade.h */,
+				AE0C8255193FB73000D53C6C /* Grade.m */,
 			);
 			path = gradebook;
 			sourceTree = "<group>";
@@ -288,12 +308,16 @@
 				AE39AB3D193F76CD00BBDCF6 /* CourseDetailView.m in Sources */,
 				AE39AB14193F72D100BBDCF6 /* ViewController.m in Sources */,
 				AE39AB34193F738800BBDCF6 /* CourseViewController.m in Sources */,
+				AEC383551940CFAF000A490D /* CourseList.m in Sources */,
 				DC60B319193F8F9200762EF8 /* Course.m in Sources */,
+				AE57D0EB193F976200A5D2C1 /* Assignment.m in Sources */,
 				AE39AB37193F73AB00BBDCF6 /* StudentViewController.m in Sources */,
 				AE39AB3A193F73BB00BBDCF6 /* AssignmentViewController.m in Sources */,
 				AE39AB0E193F72D100BBDCF6 /* AppDelegate.m in Sources */,
 				AE39AB43193F770800BBDCF6 /* StudentDetailView.m in Sources */,
 				AE39AB0A193F72D100BBDCF6 /* main.m in Sources */,
+				AE0C8256193FB73000D53C6C /* Grade.m in Sources */,
+				AE57D0EE193F97C100A5D2C1 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

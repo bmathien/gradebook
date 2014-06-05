@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>A865FC25-E5CD-48B6-A094-267D8D6981F9</string>
+	<string>8DD228E0-C5CE-453C-BA43-D5FAD19E9251</string>
 	<key>IDESourceControlProjectName</key>
 	<string>gradebook</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>D482721E-1E31-44ED-830F-D99C46308C0C</key>
+		<key>B4453AFD-7ABE-467A-B24D-F3D1ED966EAD</key>
 		<string>https://github.com/bmathien/gradebook.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>gradebook.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>D482721E-1E31-44ED-830F-D99C46308C0C</key>
+		<key>B4453AFD-7ABE-467A-B24D-F3D1ED966EAD</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>D482721E-1E31-44ED-830F-D99C46308C0C</string>
+	<string>B4453AFD-7ABE-467A-B24D-F3D1ED966EAD</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>D482721E-1E31-44ED-830F-D99C46308C0C</string>
+			<string>B4453AFD-7ABE-467A-B24D-F3D1ED966EAD</string>
 			<key>IDESourceControlWCCName</key>
 			<string>gradebook</string>
 		</dict>
