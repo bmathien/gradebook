@@ -22,20 +22,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
-
-
+    self.course = [[Course alloc] init];
 }
--(IBAction)doneButtonTapped:(id)sender
+- (IBAction)onCancel:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+-(void) viewWillDisappear:(BOOL)animated
 {
-    self.courseEnteredName = self.courseNameTextField.text;
-    self.courseEnteredSection = self.sectionNameTextField.text;
-
-    self.course = [[Course alloc] initWithName:self.courseEnteredName
-                                       section:self.courseEnteredSection];
-
-
-
-
+    self.course.name = self.courseNameTextField.text;
+    self.course.section = self.sectionNameTextField.text;
 }
+
 @end
