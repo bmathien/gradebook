@@ -12,7 +12,11 @@
 
 @property (nonatomic, strong) NSString *uid;
 @property (nonatomic, strong) NSString *name;
-@property (nonatomic) NSUInteger points;
+@property (nonatomic, strong) NSNumber *points;
 
+-(id) initWithName:(NSString *)name points:(NSNumber *)points;
+
+-(id) initWithData:(NSData *)data;
+-(NSData *)encode;
 
 @end

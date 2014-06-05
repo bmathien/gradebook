@@ -13,4 +13,9 @@
 @property NSString *firstName;
 @property NSString *lastName;
 
+-(id) initWithName:(NSString *)firstName lastName:(NSString *)lastName;
+
+-(id) initWithData:(NSData *)data;
+-(NSData *)encode;
+
 @end
