@@ -15,8 +15,6 @@
 
 @interface CourseDetailView ()
 
-@property (nonatomic, weak) IBOutlet UITextField *courseName;
-@property (nonatomic, weak) IBOutlet UITextField *sectionName;
 
 @end
 @implementation CourseDetailView
@@ -30,8 +28,12 @@
 }
 -(IBAction)doneButtonTapped:(id)sender
 {
-    self.course = [[Course alloc] initWithName:self.courseName.text
-                                       section:self.sectionName.text];
+    self.courseNameTextField = 
+
+    self.course = [[Course alloc] initWithName:self.courseNameTextField.text
+                                       section:self.sectionNameTextField.text];
+
+
 
    
 }
