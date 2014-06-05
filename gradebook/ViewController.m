@@ -28,8 +28,6 @@
 {
     [super viewDidLoad];
     self.courses = [[NSMutableArray alloc]init];
-    [self testData];
-    [self saveData];
     [self loadData];
 }
 
@@ -76,42 +74,42 @@
 }
 
 // the following method is for testing purposes
-- (void) testData
-{
-    Course *course = [[Course alloc]initWithName:@"Mobile Applications Development" section:@"Period 1"];
-
-    Student *student;
-    student = [[Student alloc]initWithName:@"John" lastName:@"Doe"];
-    [course.students addObject:student];
-    student = [[Student alloc]initWithName:@"Sally" lastName:@"Smith"];
-    [course.students addObject:student];
-    student = [[Student alloc]initWithName:@"Bob" lastName:@"Hope"];
-    [course.students addObject:student];
-    student = [[Student alloc]initWithName:@"Buffalo" lastName:@"Bill"];
-    [course.students addObject:student];
-    student = [[Student alloc]initWithName:@"Mary" lastName:@"Harris"];
-    [course.students addObject:student];
-    student = [[Student alloc]initWithName:@"Julie" lastName:@"Jordon"];
-    [course.students addObject:student];
-    student = [[Student alloc]initWithName:@"Jim" lastName:@"Shoe"];
-    [course.students addObject:student];
-
-    Assignment *assignment;
-    assignment = [[Assignment alloc]initWithName:@"Unit 8 Test" points:@100];
-    [course.assignments addObject:assignment];
-    assignment = [[Assignment alloc]initWithName:@"Quiz 9.1" points:@20];
-    [course.assignments addObject:assignment];
-    assignment = [[Assignment alloc]initWithName:@"Project 9.2" points:@50];
-    [course.assignments addObject:assignment];
-    assignment = [[Assignment alloc]initWithName:@"Project 9.3" points:@35];
-    [course.assignments addObject:assignment];
-    assignment = [[Assignment alloc]initWithName:@"Unit 9 Test" points:@100];
-    [course.assignments addObject:assignment];
-
-    [self.courses addObject:course];
-    NSLog(@"test data:\n");
-    NSLog(@"%@", [self.courses firstObject]);
-}
+//- (void) testData
+//{
+//    Course *course = [[Course alloc]initWithName:@"Mobile Applications Development" section:@"Period 1"];
+//
+//    Student *student;
+//    student = [[Student alloc]initWithName:@"John" lastName:@"Doe"];
+//    [course.students addObject:student];
+//    student = [[Student alloc]initWithName:@"Sally" lastName:@"Smith"];
+//    [course.students addObject:student];
+//    student = [[Student alloc]initWithName:@"Bob" lastName:@"Hope"];
+//    [course.students addObject:student];
+//    student = [[Student alloc]initWithName:@"Buffalo" lastName:@"Bill"];
+//    [course.students addObject:student];
+//    student = [[Student alloc]initWithName:@"Mary" lastName:@"Harris"];
+//    [course.students addObject:student];
+//    student = [[Student alloc]initWithName:@"Julie" lastName:@"Jordon"];
+//    [course.students addObject:student];
+//    student = [[Student alloc]initWithName:@"Jim" lastName:@"Shoe"];
+//    [course.students addObject:student];
+//
+//    Assignment *assignment;
+//    assignment = [[Assignment alloc]initWithName:@"Unit 8 Test" points:@100];
+//    [course.assignments addObject:assignment];
+//    assignment = [[Assignment alloc]initWithName:@"Quiz 9.1" points:@20];
+//    [course.assignments addObject:assignment];
+//    assignment = [[Assignment alloc]initWithName:@"Project 9.2" points:@50];
+//    [course.assignments addObject:assignment];
+//    assignment = [[Assignment alloc]initWithName:@"Project 9.3" points:@35];
+//    [course.assignments addObject:assignment];
+//    assignment = [[Assignment alloc]initWithName:@"Unit 9 Test" points:@100];
+//    [course.assignments addObject:assignment];
+//
+//    [self.courses addObject:course];
+//    NSLog(@"test data:\n");
+//    NSLog(@"%@", [self.courses firstObject]);
+//}
 
 
 
