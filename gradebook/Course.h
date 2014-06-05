@@ -21,8 +21,4 @@
 -(id) initWithData:(NSData *)data;
 -(NSData *)encode;
 
-//@property (nonatomic, strong) NSDictionary *courseDictionary;
-
--(Course *)initWithName: (NSString *)name section: (NSString *)section;
-
 @end

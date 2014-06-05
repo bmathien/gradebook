@@ -18,13 +18,6 @@
 @end
 
 @implementation Course
--(Course *)initWithName: (NSString *)name section: (NSString *)section
-{
-    self.name = name;
-    self.section = section;
-    return self;
-}
-
 
 -(id) initWithName:(NSString *)name section:(NSString *)section
 {

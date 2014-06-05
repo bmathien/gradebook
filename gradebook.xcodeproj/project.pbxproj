@@ -14,7 +14,6 @@
 		AE39AB08193F72D100BBDCF6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE39AB06193F72D100BBDCF6 /* InfoPlist.strings */; };
 		AE39AB0A193F72D100BBDCF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE39AB09193F72D100BBDCF6 /* main.m */; };
 		AE39AB0E193F72D100BBDCF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE39AB0D193F72D100BBDCF6 /* AppDelegate.m */; };
-		AE39AB11193F72D100BBDCF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE39AB0F193F72D100BBDCF6 /* Main.storyboard */; };
 		AE39AB14193F72D100BBDCF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE39AB13193F72D100BBDCF6 /* ViewController.m */; };
 		AE39AB16193F72D100BBDCF6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE39AB15193F72D100BBDCF6 /* Images.xcassets */; };
 		AE39AB1D193F72D100BBDCF6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE39AB1C193F72D100BBDCF6 /* XCTest.framework */; };
@@ -31,6 +30,7 @@
 		AE57D0EB193F976200A5D2C1 /* Assignment.m in Sources */ = {isa = PBXBuildFile; fileRef = AE57D0EA193F976200A5D2C1 /* Assignment.m */; };
 		AE57D0EE193F97C100A5D2C1 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = AE57D0ED193F97C100A5D2C1 /* Student.m */; };
 		AEC383551940CFAF000A490D /* CourseList.m in Sources */ = {isa = PBXBuildFile; fileRef = AEC383541940CFAF000A490D /* CourseList.m */; };
+		AEC383571940D775000A490D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC383561940D775000A490D /* Main.storyboard */; };
 		DC60B319193F8F9200762EF8 /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = DC60B318193F8F9200762EF8 /* Course.m */; };
 /* End PBXBuildFile section */
 
@@ -57,7 +57,6 @@
 		AE39AB0B193F72D100BBDCF6 /* gradebook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gradebook-Prefix.pch"; sourceTree = "<group>"; };
 		AE39AB0C193F72D100BBDCF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AE39AB0D193F72D100BBDCF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AE39AB10193F72D100BBDCF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE39AB12193F72D100BBDCF6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AE39AB13193F72D100BBDCF6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AE39AB15193F72D100BBDCF6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -84,6 +83,7 @@
 		AE57D0ED193F97C100A5D2C1 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Student.m; path = ../Student.m; sourceTree = "<group>"; };
 		AEC383531940CFAF000A490D /* CourseList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CourseList.h; path = ../CourseList.h; sourceTree = "<group>"; };
 		AEC383541940CFAF000A490D /* CourseList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CourseList.m; path = ../CourseList.m; sourceTree = "<group>"; };
+		AEC383561940D775000A490D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		DC60B317193F8F9200762EF8 /* Course.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
 		DC60B318193F8F9200762EF8 /* Course.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Course.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -147,7 +147,7 @@
 			children = (
 				AE39AB0C193F72D100BBDCF6 /* AppDelegate.h */,
 				AE39AB0D193F72D100BBDCF6 /* AppDelegate.m */,
-				AE39AB0F193F72D100BBDCF6 /* Main.storyboard */,
+				AEC383561940D775000A490D /* Main.storyboard */,
 				AE39AB3B193F76CD00BBDCF6 /* CourseDetailView.h */,
 				AE39AB3C193F76CD00BBDCF6 /* CourseDetailView.m */,
 				AE39AB3E193F76EE00BBDCF6 /* AssignmentDetailView.h */,
@@ -284,8 +284,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE39AB16193F72D100BBDCF6 /* Images.xcassets in Resources */,
+				AEC383571940D775000A490D /* Main.storyboard in Resources */,
 				AE39AB08193F72D100BBDCF6 /* InfoPlist.strings in Resources */,
-				AE39AB11193F72D100BBDCF6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,14 +346,6 @@
 				AE39AB07193F72D100BBDCF6 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		AE39AB0F193F72D100BBDCF6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AE39AB10193F72D100BBDCF6 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		AE39AB25193F72D100BBDCF6 /* InfoPlist.strings */ = {
